@@ -4,7 +4,7 @@ interface Student {
     age: number;
     location: string;
 }
-
+// Create two students
 const student1: Student = {
   firstName: 'Terry',
   lastName: 'Sophia',
@@ -18,9 +18,9 @@ const student2: Student = {
   age: 22,
   location: 'Los Angeles'
 };
-
+// Create an array of students
 const studentsList: Student[] = [student1, student2];
-
+// Create the table and append to the body
 const table = document.createElement('table');
 const tbody = document.createElement('tbody');
 
